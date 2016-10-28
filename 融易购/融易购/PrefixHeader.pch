@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  RongYiGou
+//
+//  Created by mac on 16/1/7.
+//  Copyright © 2016年 mac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import "BBCyclingLabel.h"
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD.h"
+#import "NavigationBar.h"
+#import "GlobalInformation.h"
+#import "NSArray+MJ.h"
+#import "NSString+MJ.h"
+
+#define kWidth self.view.frame.size.width
+
+#define kHeight self.view.frame.size.height
+
+#define kLabelFont [UIFont systemFontOfSize:13]
+
+#define kBgColor [UIColor colorWithRed:235/255.0 green:235/255.0 blue:235/255.0 alpha:1 ]
+
+#define kBaseURL @"http://test.senyig.com/appapi/mobileapi/"
+
+#define kCellWidth [[UIScreen mainScreen] bounds].size.width
+
+#define kCellHeight [[UIScreen mainScreen] bounds].size.height
+
+#endif /* PrefixHeader_pch */
+
+
